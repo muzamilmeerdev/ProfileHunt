@@ -35,7 +35,7 @@ A modern web application to find and discover social media profiles across multi
 
 ## How It Works 🚀
 
-1. **Enter Username**: Type any username (e.g., `@johndoe`) or paste a full profile URL
+1. **Enter Username**: Type any username (e.g., `@muzamilmeerdev`) or paste a full profile URL
 2. **Auto Detection**: App automatically detects the platform from URLs
 3. **View Results**: See all platform profiles for that username
 4. **Quick Actions**: Click to open or copy profile links
@@ -44,9 +44,9 @@ A modern web application to find and discover social media profiles across multi
 ## Usage Examples
 
 ```
-Username: @elonmusk
-URL: https://instagram.com/cristiano
-URL: https://github.com/torvalds
+Username: @muzamilmeerdev
+URL: https://instagram.com/muzamilmeerdev
+URL: https://github.com/muzamilmeerdev
 ```
 
 ## Installation & Setup
