@@ -1,16 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic SEO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Build ProfileHunt Web App</title>
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
-    </head>
+  <!-- SEO Title -->
+  <title>ProfileHunt - Social Media Profile Finder</title>
 
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
+  <!-- SEO Description -->
+  <meta
+    name="description"
+    content="Find social media profiles instantly. Search usernames across Instagram, TikTok, X, YouTube, Facebook, LinkedIn, Snapchat, and more with ProfileHunt."
+  />
+
+  <!-- Keywords -->
+  <meta
+    name="keywords"
+    content="social media finder, profile finder, username search tool, instagram finder, tiktok profile search, social profile lookup"
+  />
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://findallprofiles.vercel.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ProfileHunt - Social Media Profile Finder" />
+  <meta
+    property="og:description"
+    content="Search usernames and find social media profiles instantly."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://findallprofiles.vercel.app/" />
+  <meta
+    property="og:image"
+    content="https://findallprofiles.vercel.app/og-image.png"
+  />
+
+  <!-- Twitter SEO -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ProfileHunt" />
+  <meta
+    name="twitter:description"
+    content="Find social media accounts instantly with ProfileHunt."
+  />
+  <meta
+    name="twitter:image"
+    content="https://findallprofiles.vercel.app/og-image.png"
+  />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Google Verification -->
+  <meta
+    name="google-site-verification"
+    content="googleb63ee401855e675c"
+  />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ProfileHunt",
+    "url": "https://findallprofiles.vercel.app",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://findallprofiles.vercel.app/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Styles -->
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    #root {
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- Main React App -->
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
